@@ -1,0 +1,78 @@
+.menu {
+    list-style: none;
+    border-radius: 20px 20px 20px 20px;
+    border: solid black;  
+}
+.menu li{
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color:black;
+}
+.menu__principal {
+    float: right;
+}
+.titulo {
+    text-align: center;
+}
+.descricao{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.vitrine{
+    list-style: none;
+}
+.vitrine li {
+    border-radius: 20px 20px 20px 20px;
+    border: solid black;
+    margin: 20px;
+}
+.mercadorias__info {
+    text-align: center;
+}
+.visual {
+    width: 120px;
+    margin: 10px;
+}
+.botao{
+    height: 50px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+.adicionar {
+    border: solid rgb(55, 158, 232);
+    background: repeating-linear-gradient(
+    130deg,
+    transparent,
+    white 3px,
+    rgba(55, 158, 232, 0.05) 4px,
+    rgb(55, 158, 232) 6px),
+    linear-gradient(to bottom, #eeeeee, #999999);
+}
+.comprar {
+    border: solid rgb(204, 75, 28);
+    background: repeating-linear-gradient(
+        130deg,
+        transparent,
+        white 3px,
+        rgb(204, 75, 28, 0.05) 4px,
+        rgb(204, 75, 28) 6px),
+        linear-gradient(to bottom, #eeeeee, #999999);
+}
+.leiaute-rodape {
+    border-radius: 20px 20px 20px 20px;
+    border: solid black; 
+    text-align: center;  
+}
+.rodape {
+    list-style: none;
+}
+.rodape a {
+    text-decoration: none;
+    color:black;
+}
